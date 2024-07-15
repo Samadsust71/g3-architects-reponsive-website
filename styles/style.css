@@ -41,7 +41,8 @@
     background: rgb(255, 144, 14);
 }
 
-main ,footer{
+main,
+footer {
     max-width: 75%;
     margin: 0 auto;
 }
@@ -132,6 +133,53 @@ main>section {
     margin: 40px 0;
 }
 
+/*love and enjoy section*/
+
+#section-title {
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.section-description {
+    margin-bottom: 30px;
+}
+
+.card-content {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.architect-image {
+    margin-left: 10%;
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    background-color: rgb(255, 144, 14);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    padding: 45px 42px;
+    margin-left: -80px;
+    margin-top: -100px;
+
+}
+#experience-years{
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+
 /*some-facts section*/
 
 .facts-container {
@@ -156,31 +204,37 @@ main>section {
     border: 1px solid rgb(255, 144, 14);
     border-radius: 8px;
 }
+
 /*sponsors section*/
-.sponsors-container{
+.sponsors-container {
     flex-direction: column;
     align-items: center;
 }
-.sponsors-content{
+
+.sponsors-content {
     display: grid;
     gap: 30px;
     text-align: center;
 }
-.companies-name{
+
+.companies-name {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 60px;
 }
-.companies-name img{
+
+.companies-name img {
     filter: grayscale(100%);
 }
+
 /*footer section*/
-.footer{
+.footer {
     border-radius: 8px;
     margin-top: 40px;
 }
-.policy-section{
+
+.policy-section {
     padding: 40px 28%;
 }
 
@@ -201,7 +255,9 @@ main>section {
 
     .nav-bar,
     .nav-items,
-    .features {
+    .features ,
+    .enjoy-love
+    {
 
         flex-direction: column;
     }
@@ -237,8 +293,24 @@ main>section {
         margin-left: 0px;
     }
 
-    .companies-name{
+    .companies-name {
         grid-template-columns: repeat(1, 1fr);
+
+    }
+    .architect-image img{
+        width:100%
+    }
+    .btn-secondary{
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        padding: 25px 32px;
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+    #experience-years{
+        font-size: 1.5rem;
+        font-weight: 700;
         
     }
 
@@ -267,7 +339,7 @@ main>section {
         gap: 20px;
     }
 
-    .features {
+    .features ,.enjoy-love{
         flex-direction: column;
     }
 
@@ -280,12 +352,30 @@ main>section {
         margin-left: 0px;
         margin-top: 40px;
     }
+
     .stats-container {
         grid-template-columns: repeat(3, 1fr);
         margin-left: 0px;
     }
-    .companies-name{
+
+    .companies-name {
         grid-template-columns: repeat(2, 1fr);
+
+    }
+    .architect-image img{
+        width:100%
+    }
+    .btn-secondary{
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        padding: 25px 32px;
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+    #experience-years{
+        font-size: 1.5rem;
+        font-weight: 700;
         
     }
 
