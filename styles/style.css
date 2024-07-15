@@ -41,11 +41,12 @@
     background: rgb(255, 144, 14);
 }
 
-main{
+main {
     max-width: 75%;
     margin: 0 auto;
 }
-main > section{
+
+main>section {
     margin-top: 130px;
 }
 
@@ -108,23 +109,52 @@ main > section{
 
 /*our feature section styles*/
 
-.features{
+.features {
     align-items: center;
-   
+
 }
-.group-images{
+
+.group-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:24px
+    gap: 24px
 }
-.our-features{
+
+.our-features {
     margin-left: 70px;
 }
-#feature{
-    color:  rgb(255, 144, 14);
+
+#feature {
+    color: rgb(255, 144, 14);
 }
-.feature-description{
+
+.feature-description {
     margin: 40px 0;
+}
+
+/*some-facts section*/
+
+.facts-container {
+    display: grid;
+    row-gap: 20px;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 50px 20px;
+}
+
+.stat-contant {
+    max-width: 241px;
+    height: 241px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
 }
 
 
@@ -144,35 +174,45 @@ main > section{
 
     .nav-bar,
     .nav-items,
-    .features
-    {
-       
+    .features {
+
         flex-direction: column;
     }
+
     .brand-name {
         margin-bottom: 20px;
         font-size: 1.8rem;
         font-weight: 600;
-    
+
     }
 
     .banner-title {
         font-size: 2rem;
         font-weight: 600;
     }
-   
-    .group-images{
+
+    .group-images {
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
-    .our-features{
+
+    .our-features {
         margin-left: 0px;
         margin-top: 40px;
     }
-    
-   
-   
-    
+
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+    }
+
+    .facts-container {
+        margin-left: 0px;
+    }
+
+
+
+
 
 }
 
@@ -183,7 +223,7 @@ main > section{
         margin-bottom: 20px;
         font-size: 1.8rem;
         font-weight: 600;
-    
+
     }
 
     .banner-title {
@@ -191,19 +231,26 @@ main > section{
         font-weight: 600;
     }
 
-    .nav-items{
-        gap:20px;
+    .nav-items {
+        gap: 20px;
     }
-    .features{
+
+    .features {
         flex-direction: column;
     }
-    .group-images{
+
+    .group-images {
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
-    .our-features{
+
+    .our-features {
         margin-left: 0px;
         margin-top: 40px;
     }
-    
+    .stats-container {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 0px;
+    }
+
 }
