@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.primary-bg {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/*Dark-01*/
+.primary-color {
+    color: rgb(19, 19, 19);
+}
+
+/*Dark-03*/
+.secondary-color {
+    color: rgb(114, 114, 114);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 25px;
+    background: rgb(255, 144, 14);
+}
+
+/*navigation bar styles*/
+
+.nav-bar {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.nav-items {
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-item {
+    text-align: center;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+/*banner-styles*/
+.banner {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.banner-content {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin: 20px 0px;
+}
+
+.banner-profile-pic {
+    width: 100%;
+}
+
+/*responsive meadia query*/
+
+/*for mobile devices*/
+
+@media screen and (max-width: 576px) {
+
+    .nav-bar,
+    .nav-items {
+        flex-direction: column;
+    }
+    .brand-name {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+}
+
+/*for medium size devices*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .brand-name {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+
+    .nav-items{
+        gap:20px
+    }
+}
