@@ -156,6 +156,25 @@ main>section {
     border: 1px solid rgb(255, 144, 14);
     border-radius: 8px;
 }
+/*sponsors section*/
+.sponsors-container{
+    flex-direction: column;
+    align-items: center;
+}
+.sponsors-content{
+    display: grid;
+    gap: 30px;
+    text-align: center;
+}
+.companies-name{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 60px;
+}
+.companies-name img{
+    filter: grayscale(100%);
+}
 
 
 
@@ -210,6 +229,11 @@ main>section {
         margin-left: 0px;
     }
 
+    .companies-name{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
 
 
 
@@ -251,6 +275,10 @@ main>section {
     .stats-container {
         grid-template-columns: repeat(3, 1fr);
         margin-left: 0px;
+    }
+    .companies-name{
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 
 }
