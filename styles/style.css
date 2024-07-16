@@ -64,19 +64,15 @@ main>section {
 .brand-name {
     font-size: 2.8rem;
     font-weight: 700;
-
 }
-
 .nav-items {
     list-style: none;
     gap: 30px;
 }
-
 .nav-item {
     text-align: center;
 
 }
-
 .nav-link {
     text-decoration: none;
     color: rgb(114, 114, 114);
@@ -87,14 +83,12 @@ main>section {
     max-width: 75%;
     margin: 0 auto;
 }
-
 .banner-content {
     max-width: 60%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
 }
-
 .banner-title {
     font-size: 4rem;
     font-weight: 700;
@@ -112,7 +106,6 @@ main>section {
 
 .features {
     align-items: center;
-
 }
 
 .group-images {
@@ -136,15 +129,12 @@ main>section {
 /*love and enjoy section*/
 .enjoy-love{
   gap: 146px;
- 
 }
-
 #section-title {
     border-left: 5px solid rgb(255, 144, 14);
     padding-left: 20px;
     margin: 10px 0;
 }
-
 .section-description {
     margin-bottom: 20px;
 }
@@ -165,7 +155,6 @@ main>section {
     width: 50%;
 }
 
-
 .btn-secondary {
     border-radius: 8px;
     background-color: rgb(255, 144, 14);
@@ -175,11 +164,8 @@ main>section {
     color: white;
     padding: 35px 32px;
     margin-left: -80px;
-    margin-top: -100px;
-    
+    margin-top: -100px;  
 }
-
-
 
 #experience-years{
     font-size: 4rem;
@@ -242,7 +228,7 @@ main>section {
 }
 
 .policy-section {
-    padding: 40px 28%;
+    padding: 40px 25%;
 }
 
 
