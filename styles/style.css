@@ -214,7 +214,7 @@ main>section {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 60px;
+    gap: 40px;   
 }
 
 .companies-name img {
